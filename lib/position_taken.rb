@@ -1,4 +1,4 @@
-def position_taken?(board, index)
+def position_taken?(array, index)
   if array[index] != " " && (array[index] != "" || array[index] != nil)
     return "false"
   else return "true"
